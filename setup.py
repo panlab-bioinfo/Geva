@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Geva',
-    version='1.0.1',
+    version='1.0.2',
     author='yangjinbao',
     author_email='ruoyu1123@outlook.com',
     description='A genomic assement tools including Completeness and Accuracy',

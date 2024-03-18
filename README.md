@@ -19,7 +19,7 @@ You can compile a static version using the following command:
   cd Geva & chmod +x geva.py
 
   #pypi
-  pip install geva==1.0.1    
+  pip install geva==latest    
 ```  
 
 ## Usage
