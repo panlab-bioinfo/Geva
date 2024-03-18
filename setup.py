@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Geva',
-    version='1.0.0',
+    version='1.0.1',
     author='yangjinbao',
     author_email='ruoyu1123@outlook.com',
     description='A genomic assement tools including Completeness and Accuracy',
@@ -10,6 +10,7 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/panlab-bioinfo/Geva.git',
     packages=find_packages(),
+    scripts=['geva.py'],
     python_requires='>=3.7',
     install_requires=[
         'pandas',
